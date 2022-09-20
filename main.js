@@ -11,12 +11,7 @@ function end(num1,num2,num3){
     setTimeout(function(){location.reload()},4000)
 }
 
-
-
-
-
-
-
+j
 
 function winner(){
     for(let i=1;i<10;i++){
@@ -26,6 +21,10 @@ function winner(){
      end(1,2,3)  
 
     }
+    if(squares[2]==squares[5] &&squares[5]==squares[8]&&squares[5]!=''){
+        end(2,5,8)  
+   
+       }
     else if(squares[4]==squares[5] &&squares[5]==squares[6]&&squares[6]!=''){
         end(4,5,6) 
     }
@@ -51,23 +50,8 @@ function winner(){
     else if(squares[3]==squares[5] &&squares[5]==squares[7]&&squares[5]!=''){
         end(3,5,7) 
     }
-
-
-
-
-
-
    
 }
-
-
-
-
-
-
-
-
-
 
 
 
